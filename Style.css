@@ -1,0 +1,184 @@
+*{margin:0% ;}
+.cabecalho{
+    background-color:pink;
+display: flex;
+justify-content:space-between;
+
+}
+.logo{
+    width: 5%;
+}
+.titulo{
+    font-size: 28px;
+}
+.logo2{ 
+    width: 5%;}
+.bem{
+text-align: center;
+        }
+#julia{
+    display: flex;
+}
+#juliana{
+    display: flex;
+}
+#nn{
+    width: 300px;
+    height: 300px;
+    
+}
+.s1{
+    padding-left: 13%;
+    padding-top: 35px;
+}
+.bolo{
+  text-align: center;
+    width:10% ;
+    margin-top: 10px;
+}
+.bolodepote{
+  
+width:5% ;}
+.geladinho{
+width:15% ;
+}
+.banana{
+width:15% ;
+margin-top: 10px;
+}
+.bombom{
+width:15% ;
+margin-top: 10px;
+}
+.caseiro{
+width:15% ;
+}
+.brigadeiro{
+width:15% ;
+}
+footer{
+background-color:pink;
+}
+
+.box-busca{ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+
+.search-box-input::placeholder {
+    
+    color:#ffffff;
+    opacity: 0.6;
+
+}
+
+/* Chrome, Opera ySafari */
+.search-box-input::-webkit-input-placeholder { color: #ffffff; }
+
+/* Firefox 19+ */
+.search-box-input::-moz-placeholder { color: #ffffff; }
+
+/* IE 10+ y Edge */
+.search-box-input:-ms-input-placeholder { color: #ffffff; }
+
+
+.search-box form {
+    
+    display: flex;
+    border-radius: 50px;
+    background-color: #4c4c4c;
+    height: 45px;
+
+}
+
+.search-box:hover .search-box-input {
+    
+    padding-left: 2em;
+    padding-right: 1em;
+    width: 250px;
+
+}
+
+.search-box-input {
+
+    outline: 0;
+    font-size: 1.2em;
+    color: #fff;
+    width: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    transition: .45s;
+
+}
+
+.search-box-button {
+
+   display: flex;
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+   background-color:pink;
+   border: none;
+   cursor: pointer;
+   transition: .3s;
+
+}
+
+.search-box-button:active  {
+
+    transform: scale(.85);
+
+}
+
+.search-box-icone {
+
+    margin: auto;
+    color: #fff;
+
+}
+
+
+@media screen and (min-width: 400px){
+    
+    .search-box:hover .search-box-input {
+        width: 360px;
+    }
+
+}
+
+ul {
+
+    
+    width:100%; 
+    float:left; 
+    text-align:center; 
+}
+li {
+    padding-right: 20px;
+    display: inline-block;
+    list-style:none;
+}
+li .mymenu {
+   font-family: 'open_sansbold';
+   font-size:1.6em;
+   text-decoration: none;
+   color:#4c4c4c;
+   -webkit-border-box: 0 1px 0 0 #4c4c4c;
+   border-bottom: 4px solid transparent;
+   -webkit-transition: border-bottom .3s linear;
+}
+li .mymenu:hover {
+    
+    border-bottom:4px solid #4c4c4c;
+}
+.comprar{
+    background-color:rgb(255, 255, 255);
+}
